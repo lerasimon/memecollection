@@ -92,6 +92,11 @@ img {
 
 .slide i  {
     margin-top: 50px;
+    color:orangered;
+}
+
+.nav i {
+    color: black;
 }
 
 .nav li {
