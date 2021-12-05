@@ -31,8 +31,8 @@ ul li {
 
 
 .footer {
-    background-color: darkseagreen;
-    margin: 0 auto;
+    color:lightslategray;
+    text-align:center;
 }
 
 img {
@@ -112,4 +112,6 @@ img {
     margin-top:115px;
 
 }
+
+/* this is the end of responsive slide bar */
 
