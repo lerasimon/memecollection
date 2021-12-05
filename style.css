@@ -1,0 +1,115 @@
+body {
+    margin: 0 auto;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.header h1 {
+    font-size:20px;
+    color:lightslategray;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-align:right;
+}
+
+ul li {
+    display: inline-block;
+    letter-spacing: 3px;
+    margin: 0 7px;
+    color:lightslategray;
+}
+
+.banner {
+    background-image: url(orange.jpg);
+    background-size: cover;
+    padding:20px;
+    text-align: center;
+    color:papayawhip;
+}
+
+
+.footer {
+    background-color: darkseagreen;
+    margin: 0 auto;
+}
+
+img {
+    height: 200px;
+    margin: 15px;
+
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.col {
+    display:inline-flex;
+    flex-direction:row;
+    margin: 5px;
+    
+}
+
+.title h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.title h2 span {
+    color: orange;
+}
+
+.title h2 span.red {
+    color: orangered;
+}
+/* this is responsive slide bar */
+.nav {
+    float:right;
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    background-color: rgba(255, 165, 0, 0.9);
+    padding-top:100px;
+    transition: 0.7s;
+    overflow-x:hidden;
+
+}
+
+.float {
+    float:right;
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+.slide i  {
+    margin-top: 50px;
+}
+
+.nav i {
+    background-color: seashell;
+}
+
+.nav li {
+    color:black;
+    margin: 10px;
+}
+
+.nav li:hover {
+    color:orangered;
+}
+
+.nav ul {
+    text-align:center;
+    margin-top:115px;
+
+}
+
